@@ -28,7 +28,7 @@ NumPy arrays are optimized for numerical operations and are much faster than Pyt
 3).How does list comprehension work in Python, and can you provide an example of using it to generate a list of squared values or filter a list based on a condition?
  List comprehension is a simple way to create lists in Python. Instead of writing long loops to add items to a list, you can write everything in one line. It's a shorter and more readable way to build a list.
 
-In[19]:
+
 
 
 squares = [y**2 for y in range(1, 6)]
@@ -43,6 +43,8 @@ A shallow copy creates a new object but does not create copies of the objects in
 
 Appropriate  to use :A deep copy when you need a completely independent copy of an object and elements while  creates a new object but does not create copies of the objects inside the original.
  Implementation of Shallow Copy:
+
+ 
   import copy
 
  deep_copy = copy.deepcopy(original)
@@ -60,10 +62,18 @@ my_list[0] = 40
 my_list
 
 
-# In[12]:
+
+
+
 
 
 #Tuple 
 my_list = (10, 20, 30)
 my_list[0] = 40 #It does not support this
 my_list
+
+
+
+
+
+
