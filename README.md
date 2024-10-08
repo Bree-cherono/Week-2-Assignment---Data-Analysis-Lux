@@ -58,7 +58,9 @@ Its Syntax is created using parentheses (). Examples are as below:In[11]:
 
 #List
 my_list = [10, 20, 30]
+
 my_list[0] = 40  
+
 my_list
 
 
@@ -69,7 +71,9 @@ my_list
 
 #Tuple 
 my_list = (10, 20, 30)
+
 my_list[0] = 40 #It does not support this
+
 my_list
 
 
